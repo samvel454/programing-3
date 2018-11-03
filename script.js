@@ -57,7 +57,7 @@ function setup() {
     for (var y = 0; y < matrix.length; y++) {
         for (var x = 0; x < matrix[y].length; x++) {
             if (matrix[y][x] == 1) {
-                grrasArr.push(new Grass(x, y))
+                grrasArr.push(new Grass(x, y));
 
             }
         }
@@ -68,7 +68,7 @@ function setup() {
     for (var y = 0; y < matrix.length; y++) {
         for (var x = 0; x < matrix[y].length; x++) {
             if (matrix[y][x] == 2) {
-                grasseat.push(new Grasseater(x, y))
+                grasseat.push(new Grasseater(x, y));
 
             }
         }
@@ -79,7 +79,7 @@ function setup() {
     for (var y = 0; y < matrix.length; y++) {
         for (var x = 0; x < matrix[y].length; x++) {
             if (matrix[y][x] == 3) {
-                meateater.push(new Meateater(x, y))
+                meateater.push(new Meateater(x, y));
 
             }
         }
@@ -89,7 +89,7 @@ function setup() {
     for (var y = 0; y < matrix.length; y++) {
         for (var x = 0; x < matrix[y].length; x++) {
             if (matrix[y][x] == 4) {
-                hunter.push(new Hunter(x, y))
+                hunter.push(new Hunter(x, y));
 
             }
         }
@@ -98,7 +98,7 @@ function setup() {
     for (var y = 0; y < matrix.length; y++) {
         for (var x = 0; x < matrix[y].length; x++) {
             if (matrix[y][x] == 5) {
-                mine.push(new Mine(x, y))
+                mine.push(new Mine(x, y));
 
             }
         }
